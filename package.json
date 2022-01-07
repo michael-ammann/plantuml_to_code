@@ -5,7 +5,8 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "nodemon src/plantumlclass2file.ts -l java -p ./demo.puml -o ./out -gs",
-    "build": "tsc --project ./src/"
+    "build": "tsc --project ./src/",
+	"help": "node src/plantumlclass2file.ts -h"
   },
   "keywords": [],
   "author": "",

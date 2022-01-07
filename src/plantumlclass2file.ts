@@ -10,7 +10,7 @@ const program = new Command();
 
 program
     .option('-p --path <type>', 'path to file to convert')
-    .option('-o --out <type>', 'path to the destination folder for class files')
+    .option('-o --out <type>', 'path to the destination folder for code files')
     .option('-gs --gettersetter', 'if set, getter and setter will be crated')
     .option('-l --lang <type>', 'language to be used for the classes');
 
